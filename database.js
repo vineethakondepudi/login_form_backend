@@ -11,6 +11,6 @@ const regularFieldWorkSchema = new mongoose.Schema({
   }
 })
 
-const RegularFieldWork = mongoose.model('Topic', regularFieldWorkSchema);
+const RegularFieldWork = mongoose.model('login_form', regularFieldWorkSchema);
 
 module.exports = RegularFieldWork;
